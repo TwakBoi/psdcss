@@ -1,0 +1,362 @@
+/*Created By: Aaron*/
+html
+{
+  scroll-behavior: smooth !important;
+}
+
+::selection
+{
+  background: #a6a6a6 !important;
+/* WebKit/Blink Browsers */
+  color: black !important;
+}
+
+::-moz-selection
+{
+  background: #a6a6a6 !important;
+/* Gecko Browsers */
+  color: black !important;
+}
+
+
+*
+{
+  margin: 0px;
+  left: auto;
+  right: auto;
+  top: auto;
+  bottom: auto;
+}
+
+::-webkit-scrollbar
+{
+  width: 12px !important;
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgb(26, 26, 26) !important;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: gray !important;
+  border: 3px solid rgb(26,26,26) !important;
+  border-radius: 10px !important;
+  transition: 0.3s !important;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  background: #9c9c9c !important;
+}
+
+body
+{
+  background-color: #3F3F3F !important;
+}
+
+.head
+{
+  background-color: #202020 !important;
+}
+
+.menu
+{
+  background-color: #202020 !important;
+}
+
+.info img
+{
+  border: 1px solid rgb(255 255 255) !important;
+}
+
+.myinfohead
+{
+  background-color: #202020 !important;
+}
+
+.myinfo
+{
+  background-color: #353938 !important;
+}
+
+#adv a:hover
+{
+  color: rgb(134 134 134) !important;
+}
+
+#uname a
+{
+  color: white !important;
+}
+
+#uname a:hover
+{
+  color: wheat !important;
+  letter-spacing: 1px !important;
+  border-bottom: 1px solid wheat !important;
+}
+
+#tamsoy
+{
+  color: rgba(220,220,220,0.9) !important;
+}
+
+#active
+{
+  color: rgb(234 226 172) !important;
+  border-bottom: 2px solid rgb(234 226 172) !important;
+}
+
+.links a:hover
+{
+  color: rgb(207 199 145) !important;
+  border-bottom: 2px solid rgb(207 195 145) !important;
+}
+
+.links {
+  width: 467px !important;
+}
+
+#subtitle
+{
+  color: rgb(255 255 255) !important;
+  color: rgb(242 239 215) !important;
+}
+
+#periodicallink
+{
+  color: #ffffff !important;
+}
+
+#room
+{
+  color: wheat !important;
+}
+
+.forcomment input[type=submit]:hover
+{
+  background: rgb(255 255 255) !important;
+  border: 1px solid rgb(0 0 0) !important;
+  color: rgb(0 0 0) !important;
+  border-radius: 0px 0px 0px 0px !important;
+}
+
+#viewall:hover
+{
+  color: #615b52 !important;
+  text-decoration: underline !important;
+  transition: 0.3s !important;
+}
+
+#pname
+{
+  padding-left: 10px !important;
+  font-size: 11px !important;
+  color: white !important;
+}
+
+#pdate
+{
+  padding-left: 10px !important;
+  font-size: 11px !important;
+  color: white !important;
+}
+
+#ptime
+{
+  padding-left: 5px !important;
+  font-size: 11px !important;
+  color: white !important;
+}
+
+.accordion
+{
+  background: #434343 !important;
+}
+
+.accordion:hover
+{
+  background: rgb(41 41 41) !important;
+  color: rgb(255 255 255) !important;
+  border: 1px solid rgb(255 255 255) !important;
+}
+
+.videolinks a:hover
+{
+  border: 0.5px solid rgb(241, 247, 165) !important;
+  color: rgb(241, 247, 165) !important;
+}
+
+.post p
+{
+  color: #ffffff !important;
+}
+
+.active, .accordion:hover
+{
+  background: rgb(41 41 41) !important;
+  color: rgb(255 255 255) !important;
+  border: 1px solid rgb(255 255 255) !important;
+}
+
+.panel
+{
+  border-right: 1px solid rgb(255 255 255) !important;
+  border-left: 1px solid rgb(255 255 255) !important;
+  max-height: 100%;
+}
+
+::placeholder
+{
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000000 !important;
+  opacity: 1;
+/* Firefox */;
+}
+
+:-ms-input-placeholder
+{
+/* Internet Explorer 10-11 */
+  color: #000000 !important;
+}
+
+::-ms-input-placeholder
+{
+/* Microsoft Edge */
+  color: #000000 !important;
+}
+
+.top
+{
+  width: 100% !important;
+  height: 30% !important;
+  background: rgb(59 59 59 / 0.9) !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+  border-bottom: 4px solid rgb(255 255 255 / 0.9) !important;
+}
+
+.bottom
+{
+  width: 100% !important;
+  height: 30% !important;
+  background: rgb(59 59 59 / 0.9) !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+  border-top: 4px solid rgb(255 255 255) !important;
+}
+
+input[type=submit]
+{
+  cursor: pointer !important;
+  background: rgb(0 0 0 / 50%) !important;
+  border: 1px solid rgb(50,50,50) !important;
+  color: white !important;
+  transition: 0.5s !important;
+}
+
+input[type=submit]:hover
+{
+  background: rgb(0 0 0 / 80%) !important;
+  border: 1px solid rgb(255 255 255) !important;
+  color: rgb(255 255 255) !important;
+  border-radius: 20px !important;
+  transition: 0.5s !important;
+}
+
+.cookie
+{
+  background: #363636 !important;
+}
+
+.accesscode input[type=submit]:hover
+{
+  background: rgb(255 255 255) !important;
+  border: 1px solid rgb(0 0 0) !important;
+  color: rgb(0 0 0);
+  border-radius: 0px !important;
+}
+
+.persubject p
+{
+  color: white !important;
+}
+
+.eachcommu a:hover
+{
+  color: wheat !important;
+  font-style: italic !important;
+}
+
+#custom-button:hover
+{
+  background: rgb(255 255 255);
+  border: 1px solid rgb(0 0 0) !important;
+  color: rgb(0 0 0) !important;
+  border-radius: 5px 5px 5px 5px !important;
+}
+
+.post input[type=submit]:hover
+{
+  background: rgb(255 255 255) !important;
+  border: 1px solid rgb(0 0 0) !important;
+  color: rgb(0 0 0) !important;
+  border-radius: 20px 20px 20px 20px !important;
+}
+
+.myresources
+{
+  height: 100% !important;
+}
+
+.standard input[type=submit]:hover, .indiv a:hover
+{
+  background: rgb(0 0 0 / 80%) !important;
+  border: 1px solid rgb(255 255 255) !important;
+  color: rgb(255 255 255) !important;
+  border-radius: 0px 0px 0px 0px !important;
+}
+
+#quizsub
+{
+  color: white !important;
+}
+
+#qtype
+{
+  color: white !important;
+}
+
+.updatepass input[type=submit]:hover, .forpersonal input[type=submit]:hover, .addquiz input[type=submit]:hover
+{
+  background: rgb(32, 32, 32, 0.80) !important;
+  border: 1px solid rgb(255 255 255) !important;
+  color: rgb(255 255 255) !important;
+  border-radius: 0px 0px 0px 0px !important;
+}
+
+.myconfirm input[type=submit]:hover
+{
+  background: rgb(54 54 54 / 80) !important;
+  border: 1px solid rgb(255 255 255) !important;
+  color: rgb(185 185 185) !important;
+  border-radius: 0px 0px 0px 0px !important;
+}
+
+.footer
+{
+  width: 100% !important;
+  height: 60px !important;
+  background: rgba(10,10,10,0.5) !important;
+  clear: left !important;
+  padding-top: 10px !important;
+  position: absolute !important;
+  left: 0px !important;
+}
+
+.active1 {
+  max-height: 100% !important;
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
+}
