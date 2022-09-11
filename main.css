@@ -354,7 +354,7 @@ input[type=submit]:hover
   background: rgba(10,10,10,0.5) !important;
   clear: left !important;
   padding-top: 10px !important;
-  position: absolute !important;
+  position: relative !important;
   left: 0px !important;
 }
 
